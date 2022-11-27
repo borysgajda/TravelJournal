@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+}
+.h2--nav--bar{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  text-align: center;
+
+  color: #FFFFFF;
+  }
+.nav--bar{
+  position: absolute;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 55px;
+  background: #F55A5A;
+  }
+.ziemia{
+  position: relative;
+  top: 8px;
+  }
+
+.card {
+    width: 50%;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+    top: 150px;
+    left: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.card--image {
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.location {
+  position: absolute;
+    width:420px;
+    bottom: 310px;
+    left: -150px;
+    margin-left:300px;
+    float:right;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.name {
+  width:3420px;
+  position: relative;
+  bottom: 140px;
+  left: 155px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  
+  color: #2B283A;
+}
+
+.date{
+  position: relative;
+  bottom: 150px;
+  left: 155px;
+  width:320px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  
+  color: #2B283A;
+}
+.desc{
+  position: relative;
+  bottom: 160px;
+  width:320px;
+  left: 155px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+}
